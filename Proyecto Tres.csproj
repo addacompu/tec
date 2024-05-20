@@ -1,0 +1,414 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3CAC757-A066-48C7-BCEC-575E820ECEDE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto_Tres</RootNamespace>
+    <AssemblyName>Proyecto Tres</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44314</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Brazoinvprod.png" />
+    <Content Include="Images\cortina inicio.png" />
+    <Content Include="Images\cortinaprod %281%29.png" />
+    <Content Include="Images\cortinaprod2 %281%29.png" />
+    <Content Include="Images\cortinaprod3 %281%29.png" />
+    <Content Include="Images\cortinatipo.png" />
+    <Content Include="Images\Foto cama.png" />
+    <Content Include="Images\Foto cortinas.png" />
+    <Content Include="Images\galeria1.png" />
+    <Content Include="Images\galeria2.png" />
+    <Content Include="Images\galeria3.png" />
+    <Content Include="Images\inicio imagen %281%29.png" />
+    <Content Include="Images\inicio.png" />
+    <Content Include="Images\light_square\btnNext.png" />
+    <Content Include="Images\light_square\btnPrevious.png" />
+    <Content Include="Images\LineaC\silloncubo.png" />
+    <Content Include="Images\LineaC\silloncubolight.png" />
+    <Content Include="Images\LineaC\sillonfelipe.png" />
+    <Content Include="Images\LineaC\sillonfelipewood.png" />
+    <Content Include="Images\LineaP\chesslongvalentina.png" />
+    <Content Include="Images\LineaP\sillonBarcelona.png" />
+    <Content Include="Images\LineaP\silloncamastrofunda.png" />
+    <Content Include="Images\LineaP\silloncrystal.png" />
+    <Content Include="Images\LineaP\silloncuboconmodulo.png" />
+    <Content Include="Images\LineaP\sillondoficonpuff.png" />
+    <Content Include="Images\LineaP\sillonghost.png" />
+    <Content Include="Images\LineaP\silloniara.png" />
+    <Content Include="Images\LineaP\silloniñaki.png" />
+    <Content Include="Images\LineaP\sillonlola.png" />
+    <Content Include="Images\LineaP\sillonloly.png" />
+    <Content Include="Images\LineaP\sillonluna.png" />
+    <Content Include="Images\LineaP\sillonparis.png" />
+    <Content Include="Images\load.gif" />
+    <Content Include="Images\Logo Sin Fondo 400 x 400.png" />
+    <Content Include="Images\pase almohadas.png" />
+    <Content Include="Images\pase cama.png" />
+    <Content Include="Images\pase cortinas %281%29.png" />
+    <Content Include="Images\Productos\almohadas1.png" />
+    <Content Include="Images\Productos\almohadas2.png" />
+    <Content Include="Images\Productos\almohadas3.png" />
+    <Content Include="Images\Productos\almohadas4.png" />
+    <Content Include="Images\Productos\almohadas5.png" />
+    <Content Include="Images\Productos\almohadas6.png" />
+    <Content Include="Images\Productos\almohadas7.png" />
+    <Content Include="Images\Productos\cama1.png" />
+    <Content Include="Images\Productos\cama2.png" />
+    <Content Include="Images\Productos\cama3.png" />
+    <Content Include="Images\Productos\cama4.png" />
+    <Content Include="Images\Productos\cama5.png" />
+    <Content Include="Images\Productos\cama6.png" />
+    <Content Include="Images\Productos\cama7.png" />
+    <Content Include="Images\Productos\cama8.png" />
+    <Content Include="Images\Productos\cortina4.png" />
+    <Content Include="Images\Productos\cortinas1.png" />
+    <Content Include="Images\Productos\cortinas2.png" />
+    <Content Include="Images\Productos\cortinas3.png" />
+    <Content Include="Images\Productos\cortinas4.png" />
+    <Content Include="Images\Productos\cortinas5.png" />
+    <Content Include="Images\Productos\cortinas6.png" />
+    <Content Include="Images\Productos\cortinas7.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica2.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica3.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica4.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica5.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica6.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica7.png" />
+    <Content Include="Images\Sillonesfotos\LC\Lineaclasica8.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium2.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium3.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium4.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium5.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium6.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium7.png" />
+    <Content Include="Images\Sillonesfotos\LP\Lineapremium8.png" />
+    <Content Include="Images\toldoPuntoprod.png" />
+    <Content Include="Images\Toldosfotos\Brazoi1.png" />
+    <Content Include="Images\Toldosfotos\Brazoi2.png" />
+    <Content Include="Images\Toldosfotos\Brazoi3.png" />
+    <Content Include="Images\Toldosfotos\Brazoi4.png" />
+    <Content Include="Images\Toldosfotos\brazoi5.png" />
+    <Content Include="Images\Toldosfotos\brazoi6.png" />
+    <Content Include="Images\Toldosfotos\brazoi7 %281%29.png" />
+    <Content Include="Images\Toldosfotos\brazoi7 %282%29.png" />
+    <Content Include="Images\Toldosfotos\Toldor1.png" />
+    <Content Include="Images\Toldosfotos\Toldor2.png" />
+    <Content Include="Images\Toldosfotos\Toldor3.png" />
+    <Content Include="Images\Toldosfotos\Toldor4.png" />
+    <Content Include="Images\Toldosfotos\Toldor5.png" />
+    <Content Include="Images\Toldosfotos\Toldor6.png" />
+    <Content Include="Images\Toldosfotos\Toldor7.png" />
+    <Content Include="Images\Toldosfotos\Toldor8.png" />
+    <Content Include="Images\Toldosfotos\toldov1.png" />
+    <Content Include="Images\Toldosfotos\toldov2.png" />
+    <Content Include="Images\Toldosfotos\toldov3.png" />
+    <Content Include="Images\Toldosfotos\toldov4.png" />
+    <Content Include="Images\Toldosfotos\toldov5.png" />
+    <Content Include="Images\Toldosfotos\toldov6.png" />
+    <Content Include="Images\Toldosfotos\toldov7.png" />
+    <Content Include="Images\Toldosfotos\toldov8.png" />
+    <Content Include="Images\ToldoVprod.png" />
+    <Content Include="LineaClasica.html" />
+    <Content Include="LineaPremium.html" />
+    <Content Include="Sillones.html" />
+    <Content Include="Toldos.html" />
+    <Content Include="Confecciones.html" />
+    <Content Include="contact.html" />
+    <Content Include="Cortinas.html" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\carousel.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\HaveHeartOne.svg" />
+    <Content Include="fonts\linea-arrows-10.svg" />
+    <Content Include="index.html" />
+    <Content Include="js\banner-grid-left.js" />
+    <Content Include="js\banner-grid.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\contact.js" />
+    <Content Include="js\fivecolgallery.js" />
+    <Content Include="js\hover.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\map.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\scroll.js" />
+    <Content Include="js\threecolgallery.js" />
+    <Content Include="Productos.html" />
+    <Content Include="revolution\assets\coloredbg.png" />
+    <Content Include="revolution\assets\gridtile.png" />
+    <Content Include="revolution\assets\gridtile_3x3.png" />
+    <Content Include="revolution\assets\gridtile_3x3_white.png" />
+    <Content Include="revolution\assets\gridtile_white.png" />
+    <Content Include="revolution\assets\loader.gif" />
+    <Content Include="revolution\assets\sources\fb.png" />
+    <Content Include="revolution\assets\sources\fr.png" />
+    <Content Include="revolution\assets\sources\ig.png" />
+    <Content Include="revolution\assets\sources\post.png" />
+    <Content Include="revolution\assets\sources\revolution_slide1.png" />
+    <Content Include="revolution\assets\sources\revolution_slide2.png" />
+    <Content Include="revolution\assets\sources\tw.png" />
+    <Content Include="revolution\assets\sources\vm.png" />
+    <Content Include="revolution\assets\sources\wc.png" />
+    <Content Include="revolution\assets\sources\yt.png" />
+    <Content Include="revolution\css\closedhand.cur" />
+    <Content Include="revolution\css\index.php" />
+    <Content Include="revolution\css\layers.css" />
+    <Content Include="revolution\css\navigation-skins\ares.css" />
+    <Content Include="revolution\css\navigation-skins\custom.css" />
+    <Content Include="revolution\css\navigation-skins\dione.css" />
+    <Content Include="revolution\css\navigation-skins\erinyen.css" />
+    <Content Include="revolution\css\navigation-skins\gyges.css" />
+    <Content Include="revolution\css\navigation-skins\hades.css" />
+    <Content Include="revolution\css\navigation-skins\hebe.css" />
+    <Content Include="revolution\css\navigation-skins\hephaistos.css" />
+    <Content Include="revolution\css\navigation-skins\hermes.css" />
+    <Content Include="revolution\css\navigation-skins\hesperiden.css" />
+    <Content Include="revolution\css\navigation-skins\metis.css" />
+    <Content Include="revolution\css\navigation-skins\persephone.css" />
+    <Content Include="revolution\css\navigation-skins\uranus.css" />
+    <Content Include="revolution\css\navigation-skins\zeus.css" />
+    <Content Include="revolution\css\navigation.css" />
+    <Content Include="revolution\css\openhand.cur" />
+    <Content Include="revolution\css\settings.css" />
+    <Content Include="revolution\fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="revolution\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="revolution\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="revolution\fonts\font-awesome\index.php" />
+    <Content Include="revolution\fonts\index.php" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\css\helper.css" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\css\index.php" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\css\pe-icon-7-stroke.css" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\fonts\index.php" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\index.php" />
+    <Content Include="revolution\fonts\revicons\index.php" />
+    <Content Include="revolution\fonts\revicons\revicons.svg" />
+    <Content Include="revolution\index.php" />
+    <Content Include="revolution\js\extensions\index.php" />
+    <Content Include="revolution\js\extensions\revolution.extension.actions.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.carousel.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.kenburn.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.layeranimation.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.migration.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.navigation.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.parallax.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.slideanims.min.js" />
+    <Content Include="revolution\js\extensions\revolution.extension.video.min.js" />
+    <Content Include="revolution\js\extensions\source\index.php" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.actions.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.carousel.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.kenburn.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.layeranimation.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.migration.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.navigation.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.parallax.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.slideanims.js" />
+    <Content Include="revolution\js\extensions\source\revolution.extension.video.js" />
+    <Content Include="revolution\js\index.php" />
+    <Content Include="revolution\js\jquery.themepunch.enablelog.js" />
+    <Content Include="revolution\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="revolution\js\jquery.themepunch.tools.min.js" />
+    <Content Include="revolution\js\source\index.php" />
+    <Content Include="revolution\js\source\jquery.themepunch.enablelog.js" />
+    <Content Include="revolution\js\source\jquery.themepunch.revolution.js" />
+    <Content Include="revolution\js\source\jquery.themepunch.tools.min.js" />
+    <Content Include="revolution\php\facebook\class-facebook.php" />
+    <Content Include="revolution\php\flickr\class-flickr.php" />
+    <Content Include="revolution\php\instagram\class-instagram.php" />
+    <Content Include="revolution\php\twitter\class-twitter.php" />
+    <Content Include="revolution\php\twitter\connection\Application.php" />
+    <Content Include="revolution\php\twitter\connection\ConnectionAbstract.php" />
+    <Content Include="revolution\php\twitter\connection\User.php" />
+    <Content Include="revolution\php\twitter\RestApi.php" />
+    <Content Include="revolution\php\vimeo\class-vimeo.php" />
+    <Content Include="revolution\php\youtube\class-youtube.php" />
+    <Content Include="style.css" />
+    <Content Include="styles\index.html" />
+    <Content Include="styles\Master.css" />
+    <Content Include="Telas.html" />
+    <Content Include="toldo.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap-theme.min.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="js\.DS_Store" />
+    <Content Include="fonts\.DS_Store" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\HaveHeartOne.eot" />
+    <Content Include="fonts\HaveHeartOne.otf" />
+    <Content Include="fonts\HaveHeartOne.ttf" />
+    <Content Include="fonts\HaveHeartOne.woff" />
+    <Content Include="fonts\linea-arrows-10.eot" />
+    <Content Include="fonts\linea-arrows-10.ttf" />
+    <Content Include="fonts\linea-arrows-10.woff" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="revolution\.DS_Store" />
+    <Content Include="revolution\assets\.DS_Store" />
+    <Content Include="revolution\css\.DS_Store" />
+    <Content Include="revolution\fonts\.DS_Store" />
+    <Content Include="revolution\fonts\font-awesome\.DS_Store" />
+    <Content Include="revolution\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="revolution\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="revolution\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="revolution\fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="revolution\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\.DS_Store" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.eot" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.ttf" />
+    <Content Include="revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.woff" />
+    <Content Include="revolution\fonts\revicons\revicons.eot" />
+    <Content Include="revolution\fonts\revicons\revicons.ttf" />
+    <Content Include="revolution\fonts\revicons\revicons.woff" />
+    <Content Include="revolution\info.cfg" />
+    <Content Include="revolution\php\.DS_Store" />
+    <Content Include="revolution\php\twitter\.DS_Store" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60873</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44314/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
