@@ -1,0 +1,1078 @@
+﻿<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <!-- ayudan a garantizar una correcta visualización y comportamiento de la página web en diferentes navegadores y dispositivos -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- bloque de código establece metadatos importantes sobre la página web, como su título, descripción, autor y palabras clave asociadas -->
+    <title> TEC | Deco </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- establece la configuración básica y los estilos de la página web, ícono de favoritos y
+        enlaces a archivos CSS para definir la apariencia y el diseño de la página.-->
+
+    <link href="../revolution/css/settings.css" rel="stylesheet" />
+    <link href="../revolution/css/layers.css" rel="stylesheet" />
+    <link href="../revolution/css/navigation.css" rel="stylesheet" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../css/responsive.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+
+
+
+    <!--[if IE]  carga un script llamado "html5.js" si el navegador es Internet Explorer>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+
+
+<body>
+
+    <div id="loader">
+        <div class="loader-container">
+            <img src="Images/load.gif" alt="" class="loader-site spinner">
+        </div>
+    </div>
+
+    <!-- se usa para aplicar estilos generales al diseño de la página -->
+    <div id="wrapper">
+
+        <!--el encabezado de la página web-->
+        <header class="header">
+
+            <!--es un contenedor que se extiende a lo largo del ancho completo de su contenedor principal, que podría ser el <header>-->
+            <div class="container-full">
+
+                <!--crea la barra de navegación. La clase navbar indica que es una barra de navegación Bootstrap,
+                y la clase navbar-inverse le da a la barra de navegación un fondo oscuro y texto claro.-->
+                <nav class="navbar navbar-inverse yamm">
+
+                    <!--envuelve los elementos de la barra de navegación y
+                    se extiende a lo largo del ancho completo del contenedor principal de la barra de navegación.-->
+                    <div class="container-fluid">
+
+                        <!--contiene los elementos específicos del encabezado de la barra de navegación-->
+                        <div class="navbar-header">
+
+                            <!--botón de alternancia de la barra de navegación que se muestra en dispositivos móviles-->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html" style="margin-top: -20px;">
+                                <img src="Images/Logo Sin Fondo 400 x 400.png" alt="" style="width: 80px; height: auto;">
+                            </a>
+                        </div>
+
+
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Inicio</a></li> <!-- Se eliminó la estructura de submenú -->
+
+                                <li class="dropdown hasmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Productos <span class="fa fa-angle-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Confecciones.html">Confecciones</a></li>
+                                        <li><a href="Cortinas.html">Cortinas</a></li>
+                                        <li><a href="Toldos.html">Toldos</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown hasmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Sillones <span class="fa fa-angle-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Exclusivo.html">Linea Exclusiva</a></li>
+                                        <li><a href="LineaPremium.html">Linea Premium</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown yamm-fw">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Trabajos realizados <span class="fa fa-angle-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="yamm-content container">
+                                                <div class="row">
+
+                                                    <div class="col-md-3">
+                                                        <div class="widget">
+                                                            <div class="widget-title">
+                                                                <h4>Productos</h4>
+                                                                <hr>
+                                                            </div><!-- end widget-title -->
+                                                            <ul class="dropdown-mega">
+                                                                <li><a href="Productos.html#almohadas">Almohadas</a></li>
+                                                                <li><a href="Productos.html#cama">Cama</a></li>
+                                                                <li><a href="Productos.html#cortinas">Cortinas</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="widget">
+                                                            <div class="widget-title">
+                                                                <h4>Toldos</h4>
+                                                                <hr>
+                                                            </div><!-- end widget-title -->
+                                                            <ul class="dropdown-mega">
+                                                                <li><a href="toldo.html#brazo_invisible"> Brazo invisible </a></li>
+                                                                <li><a href="toldo.html#toldo_vertical"> Toldo vertical</a></li>
+                                                                <li><a href="toldo.html#toldo_punto_recto"> Toldo punto recto </a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="widget">
+                                                            <div class="widget-title">
+                                                                <h4>Sillones</h4>
+                                                                <hr>
+                                                            </div><!-- end widget-title -->
+                                                            <ul class="dropdown-mega">
+                                                                <li><a href="Sillones.html#exclusiva">Linea Exclusiva</a></li>
+                                                                <li><a href="Sillones.html#premium">Linea Premium</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="widget">
+                                                            <div class="widget-title">
+                                                                <h4>Galeria</h4>
+                                                                <hr>
+                                                            </div><!-- end widget-title -->
+                                                            <div class="carousel-widget">
+                                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                    <div class="carousel-inner" role="listbox">
+                                                                        <div class="item active">
+                                                                            <img src="Images/galeria1.png" alt="" class="img-responsive">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="Images/galeria2.png" alt="" class="img-responsive">
+                                                                        </div>
+                                                                        <div class="item d">
+                                                                            <img src="Images/galeria3.png" alt="" class="img-responsive">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                                                        <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                                                        <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- end blog-image -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- end ttmenu-content -->
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="Telas.html">Telas</a></li>
+                                <li><a href="contact.html">Contacto</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right searchandbag">
+                                <li class="hidden-sm hidden-xs"><a href="https://www.instagram.com/tecdeco/" data-tooltip="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+
+                                <!--Logo de busqueda-->
+                                <li class="dropdown searchdropdown hasmenu hidden-sm">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
+                                    <ul class="dropdown-menu show-right">
+                                        <li>
+                                            <form id="searchForm" method="GET">
+                                                <div id="custom-search-input">
+                                                    <div class="input-group col-md-12">
+                                                        <input id="searchInput" type="text" name="query" class="form-control input-lg" placeholder="Search here..." />
+                                                        <span class="input-group-btn">
+                                                            <button class="button button--aylen btn btn-lg" type="submit">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div><!--/.nav-collapse -->
+
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+    </div>
+
+    <!--Contenido Primera parte-->
+    <div class="page-title lb">
+        <div class="container clearfix">
+            <div class="title-area pull-left">
+                <h2> Sillones linea Exclusiva <small>Nuestros sillones son realizados a medida y vienen en dos lineas diferentes.</small></h2>
+            </div><!-- /.pull-right -->
+            <div class="pull-right hidden-xs">
+                <div class="bread">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Linea Exclusiva</a></li>
+                    </ol>
+                </div><!-- end bread -->
+            </div><!-- /.pull-right -->
+        </div>
+    </div>
+
+
+    <section class="section single-white-shop">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="tab-style-1">
+                        <div class="tabbed-widget">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#información">Información adicional</a></li>
+                                <li><a data-toggle="tab" href="#menu1">Envios</a></li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="información" class="tab-pane fade in active">
+                                    <p> Les dejamos un poco de información adicional sobre nuestros sillones de linea exclusiva</p>
+                                    <ul type="disc">
+                                        <li>La Estructura de nuestros sillón esta realizada en madera de Eucalipto estacionada, encolada, clavada y reforzada.</li>
+                                        <li>Los Almohadones de asiento son de Placa de Poliuretano de Alta Densidad 26 KG – Soft.</li>
+                                        <li>Los Almohadones de respaldo estan rellenos con Vellón siliconado de primera calidad</li>
+                                        <li>Todas las fundas de los almohadones se encuentran realizadas con cierre y los rellenos con fundas internas.</li>
+                                        <li>Garantía estructural de 3 años</li>
+                                    </ul>
+                                </div>
+
+                                <div id="menu1" class="tab-pane fade">
+
+                                    <p> TEC DECO no se hace responsable de los daños sufridos durante la carga y traslado de los productos cuando el transporte no es realizado por nuestro servicio de fletes. Se recomienda medir la entrada y los accesos a la vivienda al momento de la compra. Si durante la entrega el mueble no entra en ascensor, la subida por escalera tiene un costo adicional. De no pasar por la escalera, puertas o pasillos, no realizamos entrada por soga o balcón. En ese caso el/los muebles se dejarán en la entrada.</p>
+                                    <ul type="disc">
+                                        <li>
+                                            Retiro en fábrica
+                                            SIN COSTO. Compra on line y retirá en nuestro showroom ubicado en Colectora 12 de Octubre 1236.
+                                        </li>
+                                        <li>
+                                            Envíos al interior del país
+                                            Cobertura nacional. Entregas en todo el país. Comprá en TEC DECO Online y embalamos el producto de forma que este seguro a la hora del envio. El cliente se encarga de contratar el expreso. El costo de envío hasta la localidad de destino es a cargo del cliente.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- end tabbed-widget -->
+                    </div><!-- end service-style-1 -->
+                </div>
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium11.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3> <a title ="">SILLÓN CAMASTRO </a></h3>
+
+                                                    <p>Este sillón se caracteriza en primer lugar por su profundidad de 1.20mt que proporciona comodidad y confort, sus almohadones de respaldo en 
+                                                    vellón siliconado extra suave y asiento con placa de poliuretano ultra soft aportan dicho confort, otras caracteristicas 
+                                                    de nuestro camastro es los apoya brazos diferenciado del respaldo y en su frente el almohadón del asiento en formato martillo.</p>
+                                                    
+                                                    <p>Se puede realizar en diversas telas como en distintas medidas. Nuestros sillones son realizados a gusto de nuestros clientes. Las medidas más utilizadas varían desde 1.80 x 1.20 hasta 2.60 x 1.20.</p>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end tabbed-widget -->
+                            </div> <!-- end service-style-1 -->
+                        </div><!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN CAMASTRO CON PUFF</a></h3>
+
+                                                    <p>Este sillón con mismas carácteristicas del modelo anterior con la opción de adicionar un puff con las mismas materias primas de primera calidad. </p>
+
+                                                    <p>Se puede realizar en diversas telas como en distintas medidas. Nuestros sillones son realizados a gusto de nuestros clientes. Las medidas mas utilizadas varían desde 1.80 x 1.20 hasta 2.60 x 1.20.</p>
+
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/Silloncamastrofunda.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium19.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN REALIZADO A PEDIDO</a></h3>
+
+                                                    <p>
+                                                        Sillón modular con base de madera de Petiribí, realizado a pedido por uno de nuestros clientes, tapizado en pana con proceso anti-mancha, tiene una medida total
+                                                        de 4.00 x 2.00 x 0.90 cm de profundidad, compuesto por cinco modulos y 2 puff.
+                                                        Un sillón de líneas rectas, moderno pero a su vez súper cómodo para relajarse y disfrutar con amigos o familia.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end tabbed-widget -->
+                            </div> <!-- end service-style-1 -->
+                        </div><!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN LOLY</a></h3>
+                                                    <p>Este modelo de sillón se caracteriza por su forma circular de 1.00 mt de diámetro, estructura súper firme, extra confort por sus almohadones de respaldo realizados 
+                                                    en vellón siliconado súper suave y su asiento con placa ultra soft, además al estar realizado con funda en tusor da la libertad de lavar cuando se crea necesario. 
+                                                    El cuerpo del mismo se encuentra tapizado en lienzo al igual que sus almohadones.</p>
+
+                                                    <p>De ser solicitado se puede realizar la opción tapizado eligiendo una tela acorde.</p>
+                                                    <p> Disponemos de 3 medidas diferentes.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/sillonloly.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/silloniara.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN IARA</a></h3>
+
+                                                    <p>Sillón realizado a medida con profunidad de 0.95cm, se diferencia de los anteriores por su almohadón de asiento súper suave, cómodo y confortable.
+                                                    Estructura con delicadas terminaciones, primer almohadón con placa de poliuretano súper soft, segundo almohadón de vellón siliconada súper suave y corazón de poliuretano,
+                                                    tapizado en lienzo tanto el cuerpo como los almohadones, con funda en tusor color a elección.  </p>
+
+                                                    <p>De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde.</p>
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+
+                    </div> <!-- end row -->
+
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN IÑAKI</a></h3>
+                                                    <p>Sillón a medida, tapizado en lienzo con funda en tusor . De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/silloniñaki.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium12.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN REALIZADO A PEDIDO</a></h3>
+
+                                                    <p>Sillón a medida con un tamaño de 2.40tms de ancho y 2.00mts y una profundidad de 1.10mts, este sillon ofrece la posibilidad recortarse gracias a su gran tamaño o separar los modulos para recibir visitas. Tapizado en una pana de pelo corto con proceso anti-manchas es una excelente opcion para descansar los fines de semana sea viendo una pelicula o leyendo un libro solo o con amigos. De ser solicitado se puede realizar con funda o tapizado eligiendo una tela acorde. </p>
+
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+
+                    </div> <!-- end row -->
+
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title="">SILLÓN MAGNO</a></h3>
+                                                    <p>Este sillón se caracteriza por su profundidad de 1.20mt el mismo se puede realizar tapizado en lienzo y con funda dándole la libertad de lavarla cuando crea necesario. El mismo puede realizarse con funda de tusor o tapizado en algun genero segun el gusto del cliente.</p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium13.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/sillonluna.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN LUNA </a></h3>
+
+                                                    <p>Sillón de 1.00mt de diametro mas un puff, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+
+                    </div> <!-- end row -->
+
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN BARCELONA </a></h3>
+                                                    <p>Este sillón se caracteriza por  su forma ovalada y por estar realizado con funda dándole la libertad de lavarla cuando crea necesario. El cuerpo del mismo se encuentra tapizado en Lienzo.</p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/sillonBarcelona.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/chesslongvalentina.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> CHESSLONG VALENTINA </a></h3>
+
+                                                    <p>Sillón a medida, el mismo se caracteriza por su almohadon de asiento relleno en vellon siliconado y corazon de poliuretano, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+
+                    </div> <!-- end row -->
+
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN CAMASTRO ESQUINERO </a></h3>
+                                                    <p>Sillón camastro esquinero el mismo se caracteriza por su gran tamaño teniendo 1.20mt de profundidad esta pensado para subirse y disfrutar de un buen libro o una tarde de peliculas, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium14.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/LineaP/sillonparis.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN PARÍS </a></h3>
+
+                                                    <p>Un sillón realizado en dos modulos, ideal para transpotar facilmente y decorar los ambientes de una manera distinta y elegante, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end tabbed-widget -->
+                            </div>
+                            <!-- end service-style-1 -->
+                        </div>
+                        <!-- end col -->
+
+                    </div> <!-- end row -->
+
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN CAMASTRO DIVIDIDO </a></h3>
+                                                    <p>Sillón a medida, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium15.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div><!-- end tabbed-widget -->
+                            </div> <!-- end service-style-1 -->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium16.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN ESQUINERO A MEDIDA </a></h3>
+
+                                                    <p>Sillón esquinero con chesslong realizado a pedido por uno de nuestros clientes, tapizado en pana con proceso anti-mancha, tiene una medida total 
+                                                    de 6.40mt de ancho con un chesslong de 2.70mt de largo y una profundidad de 1.10mt, cuenta con una placa super soft de 20cm de alto.
+                                                    Un sillón súper cómodo para relajarse y disfrutar con amigos o familia.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end tabbed-widget -->
+                            </div><!-- end service-style-1 -->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN GHOST Y BANQUETA ALMA </a></h3>
+                                                    <p>Sillón a medida, tapizado en lienzo con funda en tusor. De ser solicitado se puede realizar únicamente tapizado eligiendo una tela acorde. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium17.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div><!-- end tabbed-widget -->
+                            </div><!-- end service-style-1 -->
+                        </div><!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium18.png" class="img-responsive" alt="">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN CAMASTRO DE BRAZO CORTO </a></h3>
+
+                                                    <p> Sillon de 1.20mt de profundidad con un apoya brazos de 0.60cm, realizado a pedido de uno de nuestros clientes. </p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- end tabbed-widget -->
+                            </div><!-- end service-style-1 -->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                <div id="content" class="col-md-12 col-sm-12 single-blog">
+                    <hr class="invis">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="tab-style-1">
+                                <div class="tabbed-widget">
+                                    <div class="tab-content">
+                                        <!-- Sección con la imagen a la izquierda -->
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div class="row align-items-center">
+                                                <div class="col-md-8">
+                                                    <h3><a title=""> SILLÓN CANDY </a></h3>
+                                                    <p>Sillón Candy, realizado a pedido de uno de nuestros clientes, que se ajusta perfectamente al espacio de su living, realizado con una placa súper soft 
+                                                    para un mejor confort, tapizado en lienzo y con funda de tusor, con una medida total de 2.60mt de ancho y 0.90cm de profundidad.
+                                                    Un sillón ideal para relajarse.</p>
+
+                                                    <p>Todas las fundas llevan cierre, para su fácil retiro.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="Images/Sillonesfotos/LE/Lineapremium9.png" class="img-responsive" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div><!-- end tabbed-widget -->
+                            </div><!-- end service-style-1 -->
+                        </div><!-- end col -->
+                    </div> <!-- end row -->
+                </div><!-- end content -->
+
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end section -->
+    <!--Fin del contenido de la primera parte-->
+
+    <!--Inicio pie de página-->
+    <footer class="section footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h4>Información</h4>
+                            <hr>
+                        </div>
+
+                        <div class="link-widget">
+                            <ul class="check">
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="index.html#nosotros">Sobre nosotros</a></li>
+                                <li><a href="contact.html>">Contacto</a></li>
+                            </ul>
+                        </div><!-- end link -->
+                    </div><!-- end widget -->
+                </div><!-- end col -->
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h4>Categoria</h4>
+                            <hr>
+                        </div>
+
+                        <div class="link-widget">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <ul class="check">
+                                        <li><a href="Confecciones.html#almohadas">Almohadas</a></li>
+                                        <li><a href="Confecciones.html#cama">Cama</a></li>
+                                        <li><a href="Confecciones.html#cortina">Cortinas</a></li>
+                                        <li><a href="Exclusivo.html">Sillones exclusivos</a></li>
+                                        <li><a href="LineaPremium.html">Sillones linea premium</a></li>
+                                        <li><a href="Toldos.html">Toldos</a></li>
+                                    </ul>
+                                </div><!-- end col -->
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+                    </div><!-- end link -->
+                </div><!-- end widget -->
+
+
+                <div class="col-md-3 col-sm-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h4>Nuestro contacto</h4>
+                            <hr>
+                        </div>
+
+                        <div class="newsletter-widget">
+                            <p>Horario de lunes a viernes de 10:30 a 18:00 y sábados de 10:30 a 14:30</p>
+
+                            <div class="widget">
+                                <hr class="invis">
+                                <ul class="contact-details">
+                                    <li><i class="fa fa-link"></i> <a href="https://www.todoestilocountry.com/">www.TodoEstiloCountry.com</a></li>
+                                    <li><i class="fa fa-envelope-o"></i> <a href="info@todoestilocountry.com">info@todoestilocountry.com</a></li>
+                                </ul>
+                                <hr class="invis">
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li class="facebook"><a data-tooltip="tooltip" data-placement="top" title="Facebook" href="https://www.facebook.com/TECdecoraciones/?locale=es_LA"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="google"><a data-tooltip="tooltip" data-placement="top" title="Google" href="https://www.todoestilocountry.com/"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="instagram"><a data-tooltip="tooltip" data-placement="top" title="Instagram" href="https://www.instagram.com/tecdeco/"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div><!-- end social icons -->
+                            </div><!-- end widget -->
+
+                        </div><!-- end newsletter -->
+
+                    </div><!-- end widget -->
+
+                </div><!-- end col -->
+            </div><!-- end col -->
+        </div><!-- end container -->
+    </footer>
+    <!--fin pie de página-->
+    <!-- Main Scripts-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/banner-grid.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            var tpj = jQuery;
+            var revapi56;
+            tpj(document).ready(function () {
+                if (tpj("#rev_slider_56_1").revolution == undefined) {
+                    revslider_showDoubleJqueryError("#rev_slider_56_1");
+                } else {
+                    revapi56 = tpj("#rev_slider_56_1").show().revolution({
+                        sliderType: "hero",
+                        jsFileLocation: "revolution/js/",
+                        sliderLayout: "fullwidth",
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        navigation: {
+                        },
+                        responsiveLevels: [1240, 1024, 778, 480],
+                        gridwidth: [1240, 1024, 778, 480],
+                        gridheight: [720, 640, 640, 640],
+                        lazyType: "none",
+                        parallax: {
+                            type: "scroll",
+                            origo: "enterpoint",
+                            speed: 400,
+                            levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+                        },
+                        shadow: 0,
+                        spinner: "off",
+                        autoHeight: "off",
+                        disableProgressBar: "on",
+                        hideThumbsOnMobile: "off",
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        debugMode: false,
+                        fallbacks: {
+                            simplifyAll: "off",
+                            disableFocusListener: false,
+                        }
+                    });
+                }
+            }); /*ready*/
+        })(jQuery);</script>
+
+    <script>
+        document.getElementById("searchForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevenir el envío del formulario
+
+            var query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+            switch (query) {
+                case "sillones":
+                    window.location.href = "Sillones.html";
+                    break;
+
+                case "confecciones":
+                    window.location.href = "Confecciones.html";
+                    break;
+
+                case "cortinas":
+                    window.location.href = "Cortinas.html";
+                    break;
+
+                case "contacto":
+                    window.location.href = "contact.html";
+                    break;
+
+                case "linea exclusiva":
+                    window.location.href = "Exclusivo.html";
+                    break;
+
+                case "linea premium":
+                    window.location.href = "LineaPremium.html";
+                    break;
+
+                case "telas":
+                    window.location.href = "Telas.html";
+                    break;
+
+                case "toldo":
+                    window.location.href = "Toldos.html";
+                    break;
+
+                case "inicio":
+                    window.location.href = "index.html";
+                    break;
+
+                // Agrega más casos según sea necesario
+                default:
+                    alert("No se encontró ninguna coincidencia para la búsqueda: " + query);
+            }
+        });
+    </script>
+
+
+</body>
+
+
+</html>
